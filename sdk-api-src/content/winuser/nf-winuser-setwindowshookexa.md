@@ -405,85 +405,40 @@ For an example, see <a href="/windows/desktop/winmsg/using-hooks">Installing and
 
 ## -see-also
 
-<a href="/windows/win32/winmsg/cbtproc">CBTProc</a>
-
+[Hooks](/windows/desktop/winmsg/hooks)
 
 [CallNextHookEx function](nf-winuser-callnexthookex.md)
 
-
-
-[CallWindowProcW function](nf-winuser-callwindowprocw.md)
-
-[CallWindowProcA function](nf-winuser-callwindowproca.md)
-
-[HOOKPROC callback function](nc-winuser-hookproc.md)
-
-
-[*DebugProc*](/windows/win32/winmsg/debugproc)
-
-
-[ForegroundIdleProc](/windows/win32/winmsg/foregroundidleproc)
-
-
-
-<a href="/previous-versions/windows/desktop/legacy/ms644975(v=vs.85)">CallWndProc</a>
-
-
-
-<a href="/windows/desktop/api/winuser/nc-winuser-hookproc">CallWndRetProc</a>
-
-
-
-<b>Conceptual</b>
-
-
-
-<a href="/previous-versions/windows/desktop/legacy/ms644978(v=vs.85)">DebugProc</a>
-
-
-
-<a href="/previous-versions/windows/desktop/legacy/ms644980(v=vs.85)">ForegroundIdleProc</a>
-
-
-[GetMsgProc](/windows/win32/winmsg/getmsgproc)
-
-<a href="/windows/desktop/winmsg/hooks">Hooks</a>
-
-[JournalPlaybackProc](/windows/win32/winmsg/journalplaybackproc)
-
-
-
-[JournalRecordProc](/windows/win32/winmsg/journalrecordproc)
-
-
-
-<a href="/windows/win32/winmsg/foregroundidleproc">KeyboardProc</a>
-
-
-
-[LowLevelKeyboardProc](/windows/win32/winmsg/lowlevelkeyboardproc)
-
-
-<a href="/windows/win32/winmsg/lowlevelmouseproc">LowLevelMouseProc</a>
-
-
-
-<a href="/windows/win32/winmsg/messageproc">MessageProc</a>
-
-
-
-<a href="/windows/win32/winmsg/mouseproc">MouseProc</a>
-
-<a href="/windows/win32/winmsg/shellproc">ShellProc</a>
-
-
-
-<a href="/windows/win32/winmsg/sysmsgproc">SysMsgProc</a>
-
-<a href="/windows/win32/winmsg/shellproc">ShellProc</a>
-
-
-
-<a href="/windows/win32/winmsg/sysmsgproc">SysMsgProc</a>
+[CallWindowProc function](nf-winuser-callwindowprocw.md)
 
 [UnhookWindowsHookEx function](nf-winuser-unhookwindowshookex.md)
+
+[CallWndProc callback function](/windows/win32/winmsg/callwndproc)
+
+[CallWndRetProc callback function](nc-winuser-hookproc.md)
+
+[CBTProc callback function](/windows/win32/winmsg/cbtproc)
+
+[DebugProc callback function](/windows/win32/winmsg/debugproc)
+
+[ForegroundIdleProc callback function](/windows/win32/winmsg/foregroundidleproc)
+
+[GetMsgProc callback function](/windows/win32/winmsg/getmsgproc)
+
+[JournalPlaybackProc callback function](/windows/win32/winmsg/journalplaybackproc)
+
+[JournalRecordProc callback function](/windows/win32/winmsg/journalrecordproc)
+
+[KeyboardProc callback function](/windows/win32/winmsg/foregroundidleproc)
+
+[LowLevelKeyboardProc callback function](/windows/win32/winmsg/lowlevelkeyboardproc)
+
+[LowLevelMouseProc callback function](/windows/win32/winmsg/lowlevelmouseproc)
+
+[MessageProc callback function](/windows/win32/winmsg/messageproc)
+
+[MouseProc callback function](/windows/win32/winmsg/mouseproc)
+
+[ShellProc callback function](/windows/win32/winmsg/shellproc)
+
+[SysMsgProc callback function](/windows/win32/winmsg/sysmsgproc)
