@@ -65,7 +65,7 @@ Enumerates the raw input devices attached to the system.
 
 Type: <b>PRAWINPUTDEVICELIST</b>
 
-An array of <a href="/windows/desktop/api/winuser/ns-winuser-rawinputdevicelist">RAWINPUTDEVICELIST</a> structures for the devices attached to the system. Structures should be aligned on a **DWORD** (32-bit) boundary.
+An array of <a href="/windows/desktop/api/winuser/ns-winuser-rawinputdevicelist">RAWINPUTDEVICELIST</a> structures for the devices attached to the system. Pointer should be aligned on a **DWORD** (32-bit) boundary.
 
 If <b>NULL</b>, the number of devices are returned in *<i>puiNumDevices</i>.
 
