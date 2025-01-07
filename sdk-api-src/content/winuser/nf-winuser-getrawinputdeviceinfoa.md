@@ -96,7 +96,7 @@ Specifies what data will be returned in <i>pData</i>. This parameter can be one 
 </dl>
 </td>
 <td width="60%">
-<i>pData</i> points to a string that contains the <a href="/windows-hardware/drivers/wdf/using-device-interfaces">device interface name</a>.
+<i>pData</i> points to a string that contains the <a href="/windows-hardware/drivers/wdf/using-device-interfaces">device interface name</a>. 
 
 If this device is <a href="/windows-hardware/drivers/hid/hid-architecture#hid-clients-supported-in-windows">opened with Shared Access Mode</a> then you can call <a href="/windows/win32/api/fileapi/nf-fileapi-createfilew">CreateFile</a> with this name to open a HID collection and use returned handle for calling <a href="/windows/win32/api/fileapi/nf-fileapi-readfile">ReadFile</a> to read input reports and <a href="/windows/win32/api/fileapi/nf-fileapi-writefile">WriteFile</a> to send output reports.
 
@@ -121,7 +121,7 @@ For this <i>uiCommand</i> only, the value in <i>pcbSize</i> is the character cou
 
 Type: <b>LPVOID</b>
 
-A pointer to a buffer that contains the information specified by <i>uiCommand</i>.
+A pointer to a buffer that contains the information specified by <i>uiCommand</i>. Buffer should be aligned on a **DWORD** (32-bit) boundary.
 
 If <i>uiCommand</i> is <b>RIDI_DEVICEINFO</b>, set the <b>cbSize</b> member of <a href="/windows/desktop/api/winuser/ns-winuser-rid_device_info">RID_DEVICE_INFO</a> to <code>sizeof(RID_DEVICE_INFO)</code> before calling <b>GetRawInputDeviceInfo</b>.
 
