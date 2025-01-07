@@ -105,9 +105,9 @@ Get the raw data from the <a href="/windows/desktop/api/winuser/ns-winuser-rawin
 
 Type: <b>LPVOID</b>
 
-A pointer to the data that comes from the <a href="/windows/desktop/api/winuser/ns-winuser-rawinput">RAWINPUT</a> structure. This depends on the value of <i>uiCommand</i>.
+A pointer to the data that comes from the <a href="/windows/desktop/api/winuser/ns-winuser-rawinput">RAWINPUT</a> structure. This depends on the value of <i>uiCommand</i>. Pointer should be aligned on a **DWORD** (32-bit) boundary. 
 
-Buffer should be aligned on a **DWORD** (32-bit) boundary. If <i>pData</i> is <b>NULL</b>, the required size of the buffer is returned in *<i>pcbSize</i>.
+If <i>pData</i> is <b>NULL</b>, the required size of the buffer is returned in *<i>pcbSize</i>.
 
 ### -param pcbSize [in, out]
 
